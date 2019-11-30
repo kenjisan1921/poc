@@ -6,8 +6,13 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Contoso Task Pane Add-in"/>
   <Description DefaultValue="A template to get started."/>
+<<<<<<< HEAD
   <IconUrl DefaultValue="https://kenjisan-addin.s3-ap-southeast-1.amazonaws.com/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://kenjisan-addin.s3-ap-southeast-1.amazonaws.com/assets/icon-80.png"/>
+=======
+  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+>>>>>>> 8c634c2e9a7d5a20cb8db0d76d1908cdb5b0b56a
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
     <AppDomain>contoso.com</AppDomain>
@@ -16,7 +21,11 @@
     <Host Name="Notebook"/>
   </Hosts>  
   <DefaultSettings>
+<<<<<<< HEAD
     <SourceLocation DefaultValue="https://kenjisan-addin.s3-ap-southeast-1.amazonaws.com/taskpane.html"/>
+=======
+    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+>>>>>>> 8c634c2e9a7d5a20cb8db0d76d1908cdb5b0b56a
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -62,6 +71,7 @@
     </Hosts>
     <Resources>
       <bt:Images>
+<<<<<<< HEAD
         <bt:Image id="Icon.16x16" DefaultValue="https://kenjisan-addin.s3-ap-southeast-1.amazonaws.com/assets/icon-16.png"/>
         <bt:Image id="Icon.32x32" DefaultValue="https://kenjisan-addin.s3-ap-southeast-1.amazonaws.com/assets/icon-32.png"/>
         <bt:Image id="Icon.80x80" DefaultValue="https://kenjisan-addin.s3-ap-southeast-1.amazonaws.com/assets/icon-80.png"/>
@@ -70,6 +80,16 @@
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
         <bt:Url id="Commands.Url" DefaultValue="https://kenjisan-addin.s3-ap-southeast-1.amazonaws.com/commands.html" />
         <bt:Url id="Taskpane.Url" DefaultValue="https://kenjisan-addin.s3-ap-southeast-1.amazonaws.com/taskpane.html" />
+=======
+        <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
+        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html" />
+>>>>>>> 8c634c2e9a7d5a20cb8db0d76d1908cdb5b0b56a
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!" />
